@@ -16,13 +16,31 @@ docker build -t clo .
 docker run --name clo -it --rm -v clo:/home/ubuntu clo bash
 ```
 
-### Repo init
+## Repo init
 
 ```sh
 mkdir clo
 cd clo
 
 repo init --depth=1 -u https://github.com/Jip-Hop/x14u-rom.git -b main
+```
 
+## Repo sync
+
+```sh
 repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags
+```
+
+## Set up environment
+
+```sh
+. build/envsetup.sh
+```
+
+## Choose a target
+
+```sh
+export TARGET_RELEASE=trunk_staging
+build_build_var_cache
+lunch
 ```
