@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- CLO -->
+    <remote name="clo-la"
+        fetch="https://git.codelinaro.org/clo/la"
+        sync-c="true"
+        sync-tags="false"
+        revision="refs/tags/android-15.0.0_r36" />
+
+    <default remote="clo-la" />
+
+
+    <!--
+    https://git.codelinaro.org/clo/la/la/system/manifest/-/raw/LA.QSSI.15.0.r1-15400-qssi.0/LA.QSSI.15.0.r1-15400-qssi.0.xml?ref_type=tags&inline=false -->
+    <include name="system.xml" />
+
+    <!--
+    https://git.codelinaro.org/clo/la/la/vendor/manifest/-/raw/release/LA.VENDOR.14.3.0.r2-00900-lanai.QSSI15.0.xml?inline=false -->
+    <include name="vendor.xml" />
+
+</manifest>
