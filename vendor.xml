@@ -10,7 +10,7 @@
     <image name="KERNEL.PLATFORM.3.0.R22" project="kernelplatform/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_LINUX_KERNEL.PLATFORM.3.0.R22.00.00.00.123.002" targets="dummy"/>
     <image name="VIDEO.LA.4.0.R6" project="techpack/video/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_VIDEO.LA.4.0.R6.00.00.00.000.003" targets="dummy"/>
   </refs>
-  <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <!-- <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/> -->
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="clo-la" name="device/qcom/common" path="device/qcom/common" revision="7902a06021f47fb24bf497ae136638caa93465b3" upstream="refs/heads/qcom-devices.lnx.14.0.r11-rel">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>

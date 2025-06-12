@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <!-- <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/> -->
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="clo-la" name="device/amlogic/yukawa-kernel" path="device/amlogic/yukawa-kernel" revision="749334b221b38ae37294c79c34e82718a35873dc" upstream="refs/heads/ks-aosp.lnx.15.0.r1-rel" groups="aosp-android15-release,device,pdk,yukawa,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
   <project remote="clo-la" name="device/generic/car" path="device/generic/car" revision="6ecb3525eb64fe62d513c39e33f57a6f8d20fd3c" upstream="refs/heads/ks-aosp.lnx.15.0.r1-rel" groups="aosp-android15-release,pdk,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
