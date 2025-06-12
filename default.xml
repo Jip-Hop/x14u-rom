@@ -23,6 +23,6 @@
     <include name="obsolete.xml" />
 
 
-    <include name="remove.xml" />
+    <!-- <include name="remove.xml" /> -->
 
 </manifest>
