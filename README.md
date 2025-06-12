@@ -44,3 +44,9 @@ export TARGET_RELEASE=trunk_staging
 build_build_var_cache
 lunch
 ```
+
+## Build
+
+```sh
+make -j$(nproc --all)
+```
