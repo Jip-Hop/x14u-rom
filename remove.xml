@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Not using the cuttlefish emulator -->
+    <remove-project name="device/google/cuttlefish" />
+    <remove-project name="device/google/cuttlefish_prebuilts" />
+    <remove-project name="device/google/cuttlefish_vmm" />
+</manifest>
