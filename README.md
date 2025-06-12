@@ -19,9 +19,10 @@ docker run --name clo -it --rm -v clo:/home/ubuntu clo bash
 ### Repo init
 
 ```sh
+mkdir clo
 cd clo
 
-repo init -u https://github.com/Jip-Hop/x14u-rom.git -b main
+repo init --depth=1 -u https://github.com/Jip-Hop/x14u-rom.git -b main
 
-repo sync -c -j$(nproc --all) --no-tags
+repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags
 ```
